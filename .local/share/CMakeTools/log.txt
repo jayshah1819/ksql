@@ -1,0 +1,92 @@
+2024-02-20T19:14:55.279Z [info] [proc] Executing command: cmake --version
+2024-02-20T19:14:55.465Z [info] [proc] Executing command: cmake -E capabilities
+2024-02-20T19:14:55.474Z [debug] [main] Safe constructing new CMakeProject instance
+2024-02-20T19:14:55.474Z [debug] [variant] Constructing VariantManager
+2024-02-20T19:14:55.475Z [debug] [main] Constructing new CMakeProject instance
+2024-02-20T19:14:55.475Z [debug] [main] Starting CMake Tools second-phase init
+2024-02-20T19:14:55.475Z [debug] [expand] expanding ${workspaceFolder}
+2024-02-20T19:14:55.510Z [info] [variant] Loaded new set of variants
+2024-02-20T19:14:55.513Z [debug] [kit] Reading kits file /Users/jayshah/.local/share/CMakeTools/cmake-tools-kits.json
+2024-02-20T19:14:55.525Z [info] [kit] Successfully loaded 2 kits from /Users/jayshah/.local/share/CMakeTools/cmake-tools-kits.json
+2024-02-20T19:14:55.525Z [debug] [expand] expanding /usr/bin/clang
+2024-02-20T19:14:55.527Z [debug] [expand] expanding /usr/bin/clang++
+2024-02-20T19:14:55.528Z [debug] [expand] expanding /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13
+2024-02-20T19:14:55.528Z [debug] [expand] expanding /opt/homebrew/bin/aarch64-apple-darwin23-g++-13
+2024-02-20T19:14:55.528Z [debug] [expand] expanding cmake
+2024-02-20T19:14:55.530Z [debug] [kit] Not reading non-existent kits file: /Users/jayshah/Puzzle_game/.vscode/cmake-kits.json
+2024-02-20T19:14:55.531Z [debug] [expand] expanding /Users/jayshah/Puzzle_game
+2024-02-20T19:14:55.532Z [debug] [main] CMakeProject instance initialization complete.
+2024-02-20T19:15:49.334Z [debug] [extension] Deactivate CMakeTools
+ /opt/homebrew/sbin for compilers
+2024-01-30T22:29:12.132Z [debug] [kit] Scanning directory /Library/Frameworks/Python.framework/Versions/3.11/bin for compilers
+2024-01-30T22:29:12.132Z [debug] [kit] Scanning directory /System/Cryptexes/App/usr/bin for compilers
+2024-01-30T22:29:12.133Z [debug] [kit] Scanning directory /usr/bin for compilers
+2024-01-30T22:29:12.133Z [debug] [kit] Scanning directory /bin for compilers
+2024-01-30T22:29:12.133Z [debug] [kit] Scanning directory /usr/sbin for compilers
+2024-01-30T22:29:12.133Z [debug] [kit] Scanning directory /sbin for compilers
+2024-01-30T22:29:12.133Z [debug] [kit] Scanning directory /usr/local/share/dotnet for compilers
+2024-01-30T22:29:12.133Z [debug] [kit] Skipping scan of not existing path ~/.dotnet/tools
+2024-01-30T22:29:12.133Z [debug] [kit] Found 0 kits in directory ~/.dotnet/tools
+2024-01-30T22:29:12.133Z [debug] [kit] Skipping scan of not existing path undefined\LLVM\bin
+2024-01-30T22:29:12.133Z [debug] [kit] Found 0 kits in directory undefined\LLVM\bin
+2024-01-30T22:29:12.133Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw32\bin
+2024-01-30T22:29:12.134Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw32\bin
+2024-01-30T22:29:12.134Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw64\bin
+2024-01-30T22:29:12.134Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw64\bin
+2024-01-30T22:29:12.134Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang32\bin
+2024-01-30T22:29:12.134Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang32\bin
+2024-01-30T22:29:12.134Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang64\bin
+2024-01-30T22:29:12.134Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang64\bin
+2024-01-30T22:29:12.134Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clangarm64\bin
+2024-01-30T22:29:12.134Z [debug] [kit] Found 0 kits in directory undefined\msys64\clangarm64\bin
+2024-01-30T22:29:12.134Z [debug] [kit] Skipping scan of not existing path undefined\msys64\ucrt64\bin
+2024-01-30T22:29:12.135Z [debug] [kit] Found 0 kits in directory undefined\msys64\ucrt64\bin
+2024-01-30T22:29:12.135Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+2024-01-30T22:29:12.135Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+2024-01-30T22:29:12.135Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin
+2024-01-30T22:29:12.135Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin
+2024-01-30T22:29:12.135Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin
+2024-01-30T22:29:12.135Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin
+2024-01-30T22:29:12.158Z [debug] [kit] Found 0 kits in directory /Applications/anaconda3/bin
+2024-01-30T22:29:12.159Z [debug] [kit] Found 0 kits in directory /usr/local/bin
+2024-01-30T22:29:12.159Z [debug] [kit] Found 0 kits in directory /Applications/anaconda3/condabin
+2024-01-30T22:29:12.159Z [debug] [kit] Found 0 kits in directory /System/Cryptexes/App/usr/bin
+2024-01-30T22:29:12.160Z [debug] [kit] Found 0 kits in directory /opt/homebrew/sbin
+2024-01-30T22:29:12.162Z [debug] [kit] Found 0 kits in directory /Library/Frameworks/Python.framework/Versions/3.11/bin
+2024-01-30T22:29:12.163Z [debug] [kit] Found 0 kits in directory /bin
+2024-01-30T22:29:12.167Z [debug] [kit] Found 0 kits in directory /usr/sbin
+2024-01-30T22:29:12.169Z [debug] [kit] Found 0 kits in directory /sbin
+2024-01-30T22:29:12.175Z [debug] [kit] Testing GCC binary: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13
+2024-01-30T22:29:12.176Z [info] [proc] Executing command: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13 -v
+2024-01-30T22:29:12.180Z [debug] [kit] Testing GCC binary: /opt/homebrew/bin/gcc-13
+2024-01-30T22:29:12.180Z [info] [proc] Executing command: /opt/homebrew/bin/gcc-13 -v
+2024-01-30T22:29:12.187Z [debug] [kit] Found 0 kits in directory /usr/local/share/dotnet
+2024-01-30T22:29:12.189Z [debug] [kit] Testing Clang binary: /usr/bin/clang
+2024-01-30T22:29:12.189Z [info] [proc] Executing command: /usr/bin/clang -v
+2024-01-30T22:29:12.193Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2024-01-30T22:29:12.193Z [info] [proc] Executing command: /usr/bin/gcc -v
+2024-01-30T22:29:12.198Z [debug] [kit] Testing GCC binary: /usr/bin/llvm-gcc
+2024-01-30T22:29:12.199Z [info] [proc] Executing command: /usr/bin/llvm-gcc -v
+2024-01-30T22:29:12.411Z [debug] [kit] Detected Clang compiler: /usr/bin/clang
+2024-01-30T22:29:12.411Z [debug] [kit] Detected Clang compiler: /usr/bin/clang
+2024-01-30T22:29:12.411Z [debug] [kit] Bad GCC binary. "/usr/bin/llvm-gcc -v" reports version:  output: Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+Target: arm64-apple-darwin23.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+2024-01-30T22:29:12.411Z [debug] [kit] Bad GCC binary. "/usr/bin/gcc -v" reports version:  output: Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+Target: arm64-apple-darwin23.2.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+2024-01-30T22:29:12.411Z [debug] [kit] Found 1 kits in directory /usr/bin
+2024-01-30T22:29:12.433Z [debug] [kit] Detected GCC compiler: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-13
+2024-01-30T22:29:12.434Z [debug] [kit] Detected GCC compiler: /opt/homebrew/bin/gcc-13
+2024-01-30T22:29:12.435Z [debug] [kit] Found 2 kits in directory /opt/homebrew/bin
+2024-01-30T22:29:12.435Z [info] [kit] Found Kit (trusted): GCC 13.2.0 aarch64-apple-darwin23
+2024-01-30T22:29:12.435Z [info] [kit] Found Kit (trusted): GCC 13.2.0 aarch64-apple-darwin23
+2024-01-30T22:29:12.435Z [info] [kit] Found Kit (trusted): Clang 15.0.0 arm64-apple-darwin23.2.0
+2024-01-30T22:29:12.435Z [debug] [kitsController] Saving kits to /Users/jayshah/.local/share/CMakeTools/cmake-tools-kits.json
+2024-01-30T22:29:12.435Z [debug] [kitsController] Saving new kits to /Users/jayshah/.local/share/CMakeTools/cmake-tools-kits.json
+2024-01-30T22:31:57.896Z [debug] [main] Not starting CMake driver: no kit selected
+2024-01-30T23:18:09.045Z [debug] [extension] Deactivate CMakeTools

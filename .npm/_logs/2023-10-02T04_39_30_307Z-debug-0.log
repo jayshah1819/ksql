@@ -1,0 +1,123 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.1.0
+2 info using node@v20.8.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/jayshah/Library/Caches/typescript/5.0/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 0ms
+11 timing config:load:file:/Users/jayshah/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 4ms
+17 timing npm:load:configload Completed in 4ms
+18 timing config:load:flatten Completed in 1ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install @types/react@ts5.0 @types/react-dom@ts5.0 @types/react-scroll@ts5.0
+22 verbose argv "install" "--ignore-scripts" "@types/react@ts5.0" "@types/react-dom@ts5.0" "@types/react-scroll@ts5.0" "--save-dev" "--user-agent" "typesInstaller/5.0.4"
+23 timing npm:load:setTitle Completed in 6ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:/Users/jayshah/.npm/_logs/2023-10-02T04_39_30_307Z-
+26 verbose logfile /Users/jayshah/.npm/_logs/2023-10-02T04_39_30_307Z-debug-0.log
+27 timing npm:load:logFile Completed in 4ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 20ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 6ms
+34 timing arborist:ctor Completed in 0ms
+35 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 264ms (cache miss)
+36 http fetch GET 200 https://registry.npmjs.org/npm 648ms (cache miss)
+37 http fetch GET 200 https://registry.npmjs.org/@types%2freact-scroll 694ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/@types%2freact 1207ms (cache miss)
+39 timing idealTree:userRequests Completed in 1212ms
+40 silly idealTree buildDeps
+41 silly fetch manifest @types/react-dom@18.2.8
+42 silly fetch manifest @types/react-scroll@1.8.8
+43 silly fetch manifest @types/react@18.2.24
+44 silly placeDep ROOT @types/react@18.2.24 OK for:  want: 18.2.24
+45 silly fetch manifest @types/prop-types@*
+46 silly fetch manifest @types/scheduler@*
+47 silly fetch manifest csstype@^3.0.2
+48 silly placeDep ROOT @types/react-dom@18.2.8 OK for:  want: 18.2.8
+49 silly placeDep ROOT @types/react-scroll@1.8.8 OK for:  want: 1.8.8
+50 http fetch GET 200 https://registry.npmjs.org/@types%2fprop-types 100ms (cache miss)
+51 http fetch GET 200 https://registry.npmjs.org/csstype 126ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/@types%2fscheduler 222ms (cache miss)
+53 timing idealTree:#root Completed in 230ms
+54 silly placeDep ROOT @types/prop-types@15.7.8 OK for: @types/react@18.2.24 want: *
+55 silly placeDep ROOT @types/scheduler@0.16.4 OK for: @types/react@18.2.24 want: *
+56 silly placeDep ROOT csstype@3.1.2 OK for: @types/react@18.2.24 want: ^3.0.2
+57 timing idealTree:node_modules/@types/react Completed in 3ms
+58 timing idealTree:node_modules/@types/prop-types Completed in 0ms
+59 timing idealTree:node_modules/@types/react-dom Completed in 0ms
+60 timing idealTree:node_modules/@types/react-scroll Completed in 0ms
+61 timing idealTree:node_modules/@types/scheduler Completed in 0ms
+62 timing idealTree:node_modules/csstype Completed in 0ms
+63 timing idealTree:buildDeps Completed in 235ms
+64 timing idealTree:fixDepFlags Completed in 0ms
+65 timing idealTree Completed in 1453ms
+66 timing reify:loadTrees Completed in 1454ms
+67 timing reify:diffTrees Completed in 0ms
+68 silly reify moves {}
+69 timing reify:retireShallow Completed in 0ms
+70 timing reify:createSparse Completed in 1ms
+71 timing reify:loadBundles Completed in 0ms
+72 silly audit bulk request {
+72 silly audit   'types-registry': [ '0.1.663' ],
+72 silly audit   '@types/react': [ '18.2.24' ],
+72 silly audit   '@types/react-dom': [ '18.2.8' ],
+72 silly audit   '@types/react-scroll': [ '1.8.8' ],
+72 silly audit   '@types/prop-types': [ '15.7.8' ],
+72 silly audit   '@types/scheduler': [ '0.16.4' ],
+72 silly audit   csstype: [ '3.1.2' ]
+72 silly audit }
+73 silly tarball no local data for @types/react-scroll@https://registry.npmjs.org/@types/react-scroll/-/react-scroll-1.8.8.tgz. Extracting by manifest.
+74 silly tarball no local data for @types/prop-types@https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.8.tgz. Extracting by manifest.
+75 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.1.2.tgz. Extracting by manifest.
+76 silly tarball no local data for @types/scheduler@https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.4.tgz. Extracting by manifest.
+77 silly tarball no local data for @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-18.2.8.tgz. Extracting by manifest.
+78 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-18.2.24.tgz. Extracting by manifest.
+79 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.1.2.tgz 80ms (cache miss)
+80 timing reifyNode:node_modules/csstype Completed in 84ms
+81 http fetch GET 200 https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.8.tgz 112ms (cache miss)
+82 timing reifyNode:node_modules/@types/prop-types Completed in 117ms
+83 http fetch GET 200 https://registry.npmjs.org/@types/react-scroll/-/react-scroll-1.8.8.tgz 315ms (cache miss)
+84 timing reifyNode:node_modules/@types/react-scroll Completed in 319ms
+85 http fetch GET 200 https://registry.npmjs.org/@types/react-dom/-/react-dom-18.2.8.tgz 329ms (cache miss)
+86 timing reifyNode:node_modules/@types/react-dom Completed in 334ms
+87 http fetch GET 200 https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.4.tgz 445ms (cache miss)
+88 timing reifyNode:node_modules/@types/scheduler Completed in 450ms
+89 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-18.2.24.tgz 447ms (cache miss)
+90 timing reifyNode:node_modules/@types/react Completed in 454ms
+91 timing reify:unpack Completed in 454ms
+92 timing reify:unretire Completed in 0ms
+93 timing build:queue Completed in 0ms
+94 timing build:deps Completed in 0ms
+95 timing build Completed in 0ms
+96 timing reify:build Completed in 0ms
+97 timing reify:trash Completed in 0ms
+98 timing reify:save Completed in 3ms
+99 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 699ms
+100 timing auditReport:getReport Completed in 701ms
+101 silly audit report {}
+102 timing auditReport:init Completed in 0ms
+103 timing reify:audit Completed in 701ms
+104 timing reify Completed in 2187ms
+105 silly ADD node_modules/csstype
+106 silly ADD node_modules/@types/scheduler
+107 silly ADD node_modules/@types/prop-types
+108 silly ADD node_modules/@types/react-scroll
+109 silly ADD node_modules/@types/react-dom
+110 silly ADD node_modules/@types/react
+111 timing command:install Completed in 2191ms
+112 verbose exit 0
+113 timing npm Completed in 2278ms
+114 info ok

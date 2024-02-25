@@ -1,0 +1,4 @@
+/Applications/anaconda3
+/Applications/anaconda3/envs/tf
+/Applications/anaconda3/envs/tensorflow_env
+/Users/jayshah/Downloads/Research work/.conda

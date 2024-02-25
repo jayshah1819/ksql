@@ -1,0 +1,2 @@
+{"time":"2024-02-17 13:10:17","level":"INFO","module":"__init__","method":"setup","line":463,"path":"\/Applications\/anaconda3\/lib\/python3.11\/site-packages\/anaconda_navigator\/widgets\/main_window\/__init__.py","message":"Initial setup"}
+{"time":"2024-02-17 13:10:40","level":"INFO","module":"__init__","method":"setup","line":479,"path":"\/Applications\/anaconda3\/lib\/python3.11\/site-packages\/anaconda_navigator\/widgets\/main_window\/__init__.py","message":"Normal setup"}
